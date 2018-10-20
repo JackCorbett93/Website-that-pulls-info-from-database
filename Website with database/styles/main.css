@@ -1,0 +1,60 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* background-color:#2f202d; */
+  
+}
+p{
+	font-size:14px;
+	font-family:Gruppo;
+	color:black;
+}
+
+
+@media (min-width: 1200px) {
+    div.form-label {
+        text-align: right;
+    }
+}
+#emailform{
+	margin-top:20px;
+}
+#pimage{
+	max-height:550px;
+	max-width:500px;
+	cursor: pointer;
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+#pimage:active{
+	-webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+#cimage{
+	max-height:450px;
+}
+#main{
+	/*border: 12px solid;*/
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/* background-color:#ebeee5; */
+}
+#row{
+	/*border: 12px solid; */
+	border-radius: 10px;
+	
+}
+h1{ font-family:Gruppo;
+	
+}
+h2{ font-family:Gruppo;
+	
+}
+#front{
+	width:250px;
+}
